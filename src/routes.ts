@@ -25,7 +25,7 @@ router.post('/users-create', usersController.handleCreate);
 //url
 router.post("/url/encurt", urlEncurtCOntroller.handle);
 router.get("/url/encurt/all", AuthLogin, listUrlsController.hanle);
-router.get("/url/encurt/byId/:id", AuthLogin, listUrlsController.hanle);
+router.get("/url/encurt/byId/:id", AuthLogin, listByIdController.hanle);
 
 
 export { router }
