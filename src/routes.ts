@@ -18,7 +18,7 @@ const listByIdController = new ListByIdController();
 
 //Home 
 router.get('/', (_, res) => {
-  res.send({ message: 'Welcome to Player - 2 challenge' });
+  res.send({ message: 'Welcome to speedIO - challenge' });
 });
 //users
 router.post("/login", authenticateUserController.handle);
